@@ -1,0 +1,7 @@
+getgenv().key = "ZUMARU-K1ZP-8D40"
+
+getgenv().name = "Doughking" -- Darkbeard, Doughking, Rip_indra, Tyrant
+
+repeat task.wait() until game:IsLoaded() and game:GetService("Players") and game.Players.LocalPlayer and game.Players.LocalPlayer:FindFirstChild("PlayerGui")
+
+loadstring(game:HttpGet("https://zumaru-33mp.onrender.com/script.lua"))()
